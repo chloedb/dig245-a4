@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  background-color: rgb(230, 227, 227);
+}
+.upper-left-pic {
+  float: left;
+}
+.search-box{
+  float: right;
+  background-color: orchid;
+}
+nav {
+  width: 100%;
+  height: 110px;
+  background-color: orchid;
+}
+.pure-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.pure-menu ul li {
+  list-style: none;
+  display: inline-block;
+  float: right;
+  line-height: 100px;
+}
+.pure-menu ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #1e1e1e;
+  padding-right: 20px;
+}
+.banner {
+  width: 100%;
+  text-align: center;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  margin-bottom: 3em;
+  display: table;
+}
+p {
+  float: left;
+  padding: 100px;
+  margin: 100px;
+}
